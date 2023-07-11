@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+
+/* header section start here  */
+
 .header-container{
   display: flex;
   align-items: center;
@@ -34,6 +37,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+/* feature flower section start here  */
 .flower-box{
   width: 300px;
   height: 350px;
@@ -66,6 +70,7 @@
 .two{
   background-color:cadetblue ;
 }
+/* optional section start here  */
 .optional-container{
   display: flex;
   background-color: rgb(235, 229, 229);
@@ -78,8 +83,9 @@
   margin-top: 100px;
   border-radius: 6px;
 }
+/* hot deals section start here  */
 .hot-deal-img{
-  width: 200px;
+  width: 250px;
 }
 .hot-deal-container{
   display: flex;
@@ -89,7 +95,6 @@
   margin-top: 80px;
   padding: 40px;
   padding-left: 300px;
-  
 }
 span{
   color:brown ;
@@ -99,6 +104,7 @@ span{
   font-size: 30px;
   font-weight: bold;
 }
+/* instagram section start here  */
 .instaram-title{
   text-align: center;
   font-size: 20px;
@@ -106,6 +112,7 @@ span{
 }
 .Instagram-img{
   width: 250px;
+  border-radius: 5px;
 }
 .instagram-container{
   display: flex;
@@ -115,6 +122,7 @@ span{
   border-radius: 7px;
   padding-top: 30px;
 }
+/* our garden section start here  */
 .garden-title{
   text-align: center;
   font-size: 20px;
@@ -123,22 +131,27 @@ span{
 .garden{
 height: 250px;
 }
+/* Latest deals section start here  */
 .latest-deals-container{
-  width: 80%;
+  width: 70%;
   margin:auto;
   text-align: center;
   background-image: url("Flower Asset/Rectangle\ 9.png");
   padding: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   
 }
 .input{
   height: 30px;
-  width: 400px;
+  width: 350px;
   padding: 10px;
 }
 .Latest-deal{
   padding: 10px;
 }
+/* footer section start here  */
 .flower-shop{
   text-align: center;
   padding: 50px;
